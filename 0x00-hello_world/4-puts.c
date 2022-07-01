@@ -1,14 +1,24 @@
-include <stdio.h>;
+include <stdio.h>;                                                                                               
 
+                                                                                                                 
 
-/* main - entery point
- * ruturn : always 0(succes)
- */
+                                                                                                                 
 
+/* main - entery point                                                                                           
+ *
+ *  * ruturn : always 0(succes)                                                                                     
+ *
+ *   */                                                                                                              
 
-int main(void)
-{
-	puts("Programming is like building a multilingual puzzle\n");
-	return(0);
-};
+                                                                                                                 
 
+                                                                                                                 
+
+int main(void)                                                                                                   
+
+{                                                                                                                
+
+	        puts("Programming is like building a multilingual puzzle\n");                                            
+	        return(0);                                                                                               
+
+};   
