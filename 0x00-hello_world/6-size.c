@@ -2,25 +2,22 @@
 
 /**
  * main - Entry point
- * 
  * Discription: This is a program to print the size of the data type
  * Return: Always 0 (Success)
  */
 
 int main(void)
-{
-        int i;
-        long int l;
-        long long int ll;
+{	int i;
+	long int l;
+	long long int ll;
 	float d;
-        char c;
+	char c;
 	printf("Size of a char: %lu byte(s)\n", sizeof(c));
-        printf("Size of an int: %lu byte(s)\n", sizeof(i));
-        printf("Size of a long int: %lu byte(s)\n", sizeof(l));
-        printf("Size of a long long int: %lu byte(s)\n", sizeof(ll));
-        printf("Size of a float: %lu byte(s)\n", sizeof(d));
-        return (0);
-
+	printf("Size of an int: %lu byte(s)\n", sizeof(i));
+	printf("Size of a long int: %lu byte(s)\n", sizeof(l));
+	printf("Size of a long long int: %lu byte(s)\n", sizeof(ll));
+	printf("Size of a float: %lu byte(s)\n", sizeof(d));
+	return (0);
 }
 
 
