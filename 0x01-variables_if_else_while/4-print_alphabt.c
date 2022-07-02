@@ -21,7 +21,7 @@ int main(void)
 			putchar (ch);
 		}
 		else
-			ch+0;
+			ch-1;
 	}
 
 	putchar (10);
