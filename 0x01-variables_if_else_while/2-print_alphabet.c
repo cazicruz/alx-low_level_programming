@@ -12,14 +12,7 @@
 int main()  
 
 {  
-	char ch = 'a';
-	while(ch <= 'z')
-	{
-		putchar(ch);
-		ch++;
-
-
-		return 0;
-	}
-	putchar("\n");
+	char ch ;
+	for (ch='a'; ch<='z'; ch++)
+	putchar(ch);	
 }
