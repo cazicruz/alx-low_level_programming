@@ -16,14 +16,14 @@ int main(void)
 
 	for (ch = 97; ch <= 122; ch++)
 	{
-		if (ch != "q" && ch != "e")
+		if (ch != 113 && ch != 101)
 		{
 			putchar (ch);
 		}
 		else
 			ch++;}
 
-	putchar ('\n');
+	putchar (10);
 
 	return (0);
 }
