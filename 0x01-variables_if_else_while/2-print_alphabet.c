@@ -21,5 +21,5 @@ int main()
 
 		return 0;
 	}
-	putchar("\n")
+	putchar("\n");
 }
