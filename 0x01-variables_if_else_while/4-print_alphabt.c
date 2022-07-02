@@ -20,8 +20,6 @@ int main(void)
 		{
 			putchar (ch);
 		}
-		else
-			--ch;
 	}
 
 	putchar (10);
