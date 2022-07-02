@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
 /**
  * main - Entry point
  * Discription: code to print alphabets
@@ -11,7 +12,6 @@
 int main(void)
 {
 	char ch;
-	char cA;
 
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
