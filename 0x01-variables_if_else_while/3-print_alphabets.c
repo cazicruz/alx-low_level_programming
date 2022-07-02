@@ -13,14 +13,13 @@ int main(void)
 	char ch;
 	char cA;
 
-	for (ch = 'a'; ch <= 'Z'; ch++)
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		putchar (ch);
 	}
-	for (cA = "A"; cA <= "Z"; cA++)
-	{
-		putchar (cA)
-	}
+	ch = toupper(ch);
+		putchar (ch);
+
 	putchar ('\n');
 
 	return (0);
