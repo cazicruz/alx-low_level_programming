@@ -3,8 +3,6 @@
 
 
 
-
-
 /**
  * main = Entry point
  * Return: Always 0 (success)
@@ -17,10 +15,11 @@ int main()
 	char ch = 'a';
 	while(ch <= 'z')
 	{
-		putchar("%c \n", ch);
+		putchar("%d", ch);
 		ch++;
 
 
 		return 0;
 	}
+	putchar("\n")
 }
