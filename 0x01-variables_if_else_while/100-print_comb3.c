@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - entry point 
+ * main - entry point
  * print a list of combined numbers
  * Return: Always 0 (success)
  */
