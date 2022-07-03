@@ -6,7 +6,7 @@
  * Return: Always 0 (success)
  */
 
-int main(viod)
+int main(void)
 {
 	int ch;
 	int n;
@@ -30,5 +30,5 @@ int main(viod)
 	}
 	putchar(10);  /*this is ascii code for  new line*/
 
-	return (0)
+	return (0);
 }
