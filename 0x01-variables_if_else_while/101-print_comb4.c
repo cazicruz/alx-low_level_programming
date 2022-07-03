@@ -10,11 +10,11 @@ int main(void)
 {
 	int ch;
 	int n;
-	int l
+	int l;
 
 	for (ch = 48; ch <= 58; ch++)
 	{
-		for (n = 49; n <= 57; n++)
+		for (n = 49; n <= 58; n++)
 		{
 			for (l = 50; l < 58; l++)
 			{
@@ -23,7 +23,7 @@ int main(void)
 					putchar(ch);
 					putchar(n);
 					putchar(l);
-					if (n != 55 || m != 56)
+					if (ch != 55 || n != 56)
 					{
 						putchar(',');
 						putchar(' ');
