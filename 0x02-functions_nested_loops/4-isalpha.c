@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _islower - Entry point
+ * _isalpha - Entry point
  * @c: this is the input or letter to compare
  * Return: always return 0 (success)
  */
