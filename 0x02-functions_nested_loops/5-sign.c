@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _isalpha - Entry point
- * @c: this is the input or letter to compare
+ * print_sign - Entry point
+ * @n: this is the input or number to compare
  * Return: always return 0 (success)
  */
 
@@ -22,5 +22,6 @@ int print_sign(int n)
 	{
 		_putchar(0);
 	}
+	_putchar('\n')
 
 }
