@@ -6,14 +6,15 @@
  * Return: always return 0 (success)
  */
 
-int _abs(int)
+int _abs(int n)
 {
 	int n;
-	if (n > 0)
+	if (r > 0)
 	{
 		_putchar(n*(-1));
 	}
-	else if 
+	else
 		_putchar(n);
-	return (0)
+
+	return (0);
 }
