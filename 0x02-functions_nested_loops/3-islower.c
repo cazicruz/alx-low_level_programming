@@ -2,7 +2,7 @@
 
 /**
  * _islower - Entry point
- * c - tis is the input or letter to compare
+ * @c - tis is the input or letter to compare
  * Return: always return 0 (success)
  */
 
