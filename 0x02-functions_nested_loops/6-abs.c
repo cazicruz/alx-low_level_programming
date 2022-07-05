@@ -8,8 +8,7 @@
 
 int _abs(int n)
 {
-	int n;
-	if (r > 0)
+	if (n > 0)
 	{
 		_putchar(n*(-1));
 	}
