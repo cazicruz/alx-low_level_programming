@@ -6,7 +6,7 @@
  * Return: always return 0 (success)
  */
 
-int _isalpha(int c);
+int _isalpha(int c)
 {
 	if (c >= 97 && c <= 122)
 	{
