@@ -15,7 +15,7 @@ void times_table(void)
 	for (tX1 = 0; tX1 < 10; tX1++)
 	{
 		_putchar(48);
-		for  (i = 0; i < 10; i++)
+		for  (i = 1; i < 10; i++)
 		{
 			table_1 = tX1 * i;
 			_putchar(44);
