@@ -9,13 +9,17 @@ int main(void)
 {
 	int count = 0;
 	int n = 2;
+	int m = 1;
+	int j;
 
-	printf("1, %d", n);
+	printf("1, %d, ", n);
 
 	for (; count <= 47; count++)
 		{
-			n = n + (n-1);
+			j = n;
+			n = n + m;
 			printf("%d, ", n);
+			m = j;
 		}
 	return (0);
 }
