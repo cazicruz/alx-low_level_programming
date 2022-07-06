@@ -8,13 +8,9 @@
 int main(void)
 {
 	int count = 0;
-	int n = 1;
+	int n = 2;
 
-	printf("%d", n);
-
-	n = 2;
-
-	printf("%d", n);
+	printf("1, %d", n);
 
 	for (; count <= 47; count++)
 		{
