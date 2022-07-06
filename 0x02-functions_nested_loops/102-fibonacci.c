@@ -5,7 +5,7 @@
  * @n: input parameter
  * Return: x + y
  */
-void main(void)
+int main(void)
 {
 	count = 0;
 	int n = 1;
