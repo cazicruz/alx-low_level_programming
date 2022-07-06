@@ -21,6 +21,6 @@ int main(void)
 			printf("%ld, ", n);
 			m = j;
 		}
-	printf('\n');
+	printf("\n");
 	return (0);
 }
