@@ -12,14 +12,15 @@ int main(void)
 	int m = 1;
 	int j;
 
-	printf("1, %d, ", n);
+	printf("%ld, %ld, ", m, n);
 
 	for (; count <= 47; count++)
 		{
 			j = n;
 			n = n + m;
-			printf("%d, ", n);
+			printf("%ld, ", n);
 			m = j;
 		}
+	printf('\n');
 	return (0);
 }
