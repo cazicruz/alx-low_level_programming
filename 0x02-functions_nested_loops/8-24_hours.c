@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * print_last_digit - Entry point
- * @n: this is the input or letter to compare
+ * jack_bauer - Entry point
+ * @Hours ,@Mins: tis iare time indicators
  * Return: always return 0 (success)
  */
 
-void jack_bauer(void);
+void jack_bauer(void)
 {
 	int Hours, Mins;
 	while (Hours < 24)
