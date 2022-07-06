@@ -18,7 +18,7 @@ int main(void)
 		{
 			j = n;
 			n = n + m;
-			printf("%ld, ", n);
+			printf("%ld", n);
 			m = j;
 			if (count != 47)
 				printf(", ");
