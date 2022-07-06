@@ -20,6 +20,8 @@ int main(void)
 			n = n + m;
 			printf("%ld, ", n);
 			m = j;
+			if (count != 47)
+				printf(", ");
 		}
 	printf("\n");
 	return (0);
