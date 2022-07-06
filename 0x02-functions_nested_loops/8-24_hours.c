@@ -13,7 +13,7 @@ void jack_bauer(void)
 	int Hours, Mins;
 	while (Hours < 24)
 	{
-		printf("%02d:%02d"Hours,Mins);
+		printf("%02d:%02d",Hours,Mins);
 		fflush(stdout);
 		Mins++;
 		if (Mins == 60)
@@ -22,5 +22,4 @@ void jack_bauer(void)
 			Mins =0;
 		}
 	}
-	return (0);
 }
