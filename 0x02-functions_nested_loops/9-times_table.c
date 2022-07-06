@@ -11,7 +11,6 @@ void times_table(void)
 	int tX1;
 	int i;
 	int table_1;
-	
 
 	for (tX1 = 0; tX1 < 10; tX1++)
 	{
@@ -21,7 +20,7 @@ void times_table(void)
 			table_1 = tX1 * i;
 			_putchar(44);
 			_putchar(32);
-			if (table_1 < 10)
+			/*if (table_1 < 10)
 			{
 				_putchar(32);
 				_putchar(table_1 + 48);
@@ -31,6 +30,7 @@ void times_table(void)
 				_putchar((table_1 / 10) + 48);
 				_putchar((table_1 / 10) + 48);
 			}
+			*/
 		}
 		_putchar('\n');
 	}
