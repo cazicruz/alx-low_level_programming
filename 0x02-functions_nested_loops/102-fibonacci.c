@@ -2,10 +2,7 @@
 #include "main.h"
 /**
  * main - entry point
- * @n: input parameter
- * @m: input
- * @j: memory
- * @count: counter
+ * discription: fabonacci
  * Return: x + y
  */
 int main(void)
