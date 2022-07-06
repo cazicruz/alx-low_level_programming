@@ -2,8 +2,8 @@
 
 /**
  * times_table - Entry point
- * @n: this is the input or number to compare
- * Return: always return 0 (success)
+ * @i, table_1, tX1 : this is the input or number to compare
+ * Return: void
  */
 
 void times_table(void)
@@ -17,9 +17,19 @@ void times_table(void)
 		for  (i = 0; i < 10; i++)
 		{
 			table_1 = tX1 * i;
-			_putchar(table_1);
 			_putchar(44);
 			_putchar(32);
+			if (table_1 < 10)
+			{
+				_putchar(32);
+				_putchar(table_1 + 48);
+			}
+			else
+			{
+				_putchar((table_1 /10) + 48);
+				_putchar((table_1 /10) + 48);
+			}
 		}
+		_putchar('\n');
 	}
 }
