@@ -23,7 +23,7 @@ void times_table(void)
 			if (table_1 <= 9)
 			{
 				_putchar(32);
-				_putchar(table_1 + 48);
+				_putchar(table_1 + '0');
 			}
 			else
 			{
