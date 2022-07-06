@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	count = 0;
+	int count = 0;
 	int n = 1;
 
 	printf("%d", n);
