@@ -1,9 +1,10 @@
 #include "main.h"
 /**
- *thin is a function that adds two numbers
- *
+ * add - entry point
+ * thin is a function that adds two numbers
+ * return:always 0 (success)
  */
-int add(int, int)
+int add(int x, int y)
 {
 	int x;
 	int y;
