@@ -12,13 +12,13 @@ int main(void)
 	unsigned long int m = 1;
 	unsigned long int j;
 
-	printf("%ld, %ld, ", m, n);
+	printf("%lu, %lu, ", m, n);
 
 	for (; count <= 95; count++)
 	{
 		j = n;
 		n = n + m;
-		printf("%ld", n);
+		printf("%lu", n);
 		m = j;
 		if (count != 95)
 			printf(", ");
