@@ -8,9 +8,9 @@
 int main(void)
 {
 	int count = 0;
-	long int n = 2;
-	long int m = 1;
-	long int j;
+	unsigned long int n = 2;
+	unsigned long int m = 1;
+	unsigned long int j;
 
 	printf("%ld, %ld, ", m, n);
 
