@@ -20,7 +20,7 @@ void times_table(void)
 			table_1 = tX1 * i;
 			_putchar(44);
 			_putchar(32);
-			if (table_1 >= 9)
+			/*if (table_1 >= 9)
 			{
 				_putchar(32);
 				_putchar(table_1 + '0');
@@ -29,7 +29,7 @@ void times_table(void)
 			{
 				_putchar((table_1 / 10) + 48);
 				_putchar((table_1 % 10) + 48);
-			}
+			}*/
 		}
 		_putchar('\n');
 	}
