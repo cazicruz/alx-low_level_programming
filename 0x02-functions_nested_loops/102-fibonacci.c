@@ -8,9 +8,9 @@
 int main(void)
 {
 	int count = 0;
-	n = 2;
-	m = 1;
-	j;
+	long int n = 2;
+	long int m = 1;
+	long int j;
 
 	printf("%ld, %ld, ", m, n);
 
