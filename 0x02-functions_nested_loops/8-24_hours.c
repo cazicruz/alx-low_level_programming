@@ -10,16 +10,24 @@
 
 void jack_bauer(void)
 {
-	int Hours, Mins;
-	while (Hours < 24)
+	int a, b, c, d;
+	for (a = 48; a <= 50; a++)
 	{
-		printf("%02d:%02d",Hours,Mins);
-		fflush(stdout);
-		Mins++;
-		if (Mins == 60)
+		for (b = 48; b <= 57; b++)
 		{
-			Hours +=1;
-			Mins =0;
+			for (c = 48; c <= 53; c++)
+			{
+				for (d = 48; d <= 53;d++)
+				{
+					if (a >= 50 && b >= 52)
+						break;
+					_putchar(a);
+					_putchar(b);
+					_putchar(58);
+					_putchar(c);
+					_putchar(d);
+					_putchar('\n');
+				}
+			}
 		}
 	}
-}
