@@ -22,5 +22,4 @@ void times_table(void)
 			_putchar(32);
 		}
 	}
-	return (0);
 }
