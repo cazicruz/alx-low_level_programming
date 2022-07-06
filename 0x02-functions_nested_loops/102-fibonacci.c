@@ -17,4 +17,5 @@ int main(void)
 			n = n + (n-1);
 			printf("%d, ", n);
 		}
+	return (0);
 }
