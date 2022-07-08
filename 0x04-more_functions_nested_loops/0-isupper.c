@@ -3,7 +3,7 @@
 /**
  * @c: inpute parameter
  * _isupper -> starting point
- * Returning: return 0 if lowercase
+ * Returning: return success
  */
 
 int _isupper(int c)
