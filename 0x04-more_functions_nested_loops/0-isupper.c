@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * @c: inpute parameter
  * _isupper -> starting point
+ *@c: inpute character
  * Returning: return success
  */
 
