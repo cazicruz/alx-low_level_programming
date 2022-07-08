@@ -8,6 +8,7 @@
 
 int _isupper(int c)
 {
+	c = char c
 	if (c >= 65 && <= 90)
 	{
 		return (1);
