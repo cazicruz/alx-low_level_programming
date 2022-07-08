@@ -5,7 +5,7 @@
  * Return: void
  */
 
-void print_line(int n)
+void print_square(int size)
 {
 	int i, j;
 
