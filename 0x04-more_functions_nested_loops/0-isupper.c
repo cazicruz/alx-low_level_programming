@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*
+/**
  * _isupper - starting point
  * Returning: return 0 if lowercase and 1 if uppercase
  */
@@ -11,7 +11,7 @@ int _isupper(int c)
 	{
 		return (1);
 	}
-	else 
+	else
 	{
 		return (0);
 	}
