@@ -1,6 +1,7 @@
 #include "main.h"
 
 /**
+ * @c: inpute parameter
  * _isupper - starting point
  * Returning: return 0 if lowercase and 1 if uppercase
  */
