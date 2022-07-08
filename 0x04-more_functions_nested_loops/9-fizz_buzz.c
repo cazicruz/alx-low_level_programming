@@ -2,7 +2,6 @@
 #include <stdlib.h>
 /**
  * main - entry point
- * @i: integer
  * return: Always return 0 (success)
  */
 
@@ -34,5 +33,6 @@ int main(void)
 		}
 	}
 	printf("\n");
+
 	return (0);
 }
