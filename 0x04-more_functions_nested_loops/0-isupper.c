@@ -2,7 +2,7 @@
 
 /**
  * _isupper -> starting point
- *@c: inpute character
+ * @c: inpute character
  * Returning: return success
  */
 
