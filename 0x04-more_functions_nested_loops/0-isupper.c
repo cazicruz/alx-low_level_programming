@@ -2,8 +2,8 @@
 
 /**
  * @c: inpute parameter
- * _isupper - starting point
- * Returning: return 0 if lowercase and 1 if uppercase
+ * _isupper -> starting point
+ * Returning: return 0 if lowercase
  */
 
 int _isupper(int c)
