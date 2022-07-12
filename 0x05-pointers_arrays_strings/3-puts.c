@@ -9,15 +9,13 @@
 
 void _puts(char *str)
 {
-	int len = _strlen(str);
-	int i;
-
-
-	for (i = 0; i <= len; i++)
+	int len;
+	int count;
+	len = _strlen(str);
+	for (count = 0; count <= len; count++)
 	{
-		_putchar(str[i]);
-		if (str[i] == 0)
-			_putchar('\n');
+		_putchar(str[count]);
+		if (count == 0)
+			putchar('\n');
 	}
-
 }
