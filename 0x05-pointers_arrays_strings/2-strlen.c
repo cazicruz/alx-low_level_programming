@@ -5,7 +5,7 @@
  * _strlen - Entry point
  * Discription: this is a function that swaps two values
  * @count: counter to tell the length
- * @i: increament variable
+ * return: returns the lenght of the string
  */
 
 int _strlen(char *s)
