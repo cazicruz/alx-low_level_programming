@@ -4,8 +4,8 @@
 /**
  * _strlen - Entry point
  * Discription: this is a function that swaps two values
- * @a: pointer variable
- * @b: pointer variable
+ * @count: counter to tell the length
+ * @i: increament variable
  */
 
 int _strlen(char *s)
