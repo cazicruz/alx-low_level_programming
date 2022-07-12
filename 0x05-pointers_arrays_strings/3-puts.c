@@ -7,15 +7,12 @@
  * Return: returns the lenght of the string
  */
 
-int _strlen(char *s);
-
 
 void _puts(char *str)
 {
-	int len;
-	int count;
-	len = _strlen(str);
-	for (count = 0; count <= len; count++)
+	int count = 0;
+
+	for (; count >= 0; count++)
 	{
 		_putchar(str[count]);
 		if (count == 0)
