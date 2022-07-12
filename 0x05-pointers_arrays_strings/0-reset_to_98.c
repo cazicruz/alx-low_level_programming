@@ -2,7 +2,7 @@
 #include "main.h"
 
 /*
- * reset_to_98 -> this is the entry point
+ * reset_to_98 - Entry point
  * @*n: pointer variable
  */
 
