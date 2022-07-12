@@ -12,15 +12,17 @@ void rev_string(char *s)
 {
 	int count = 0;
 	int n;
+	int j;
+	char revs[];
 
 	while (s[count] != 0)
 	{
 		count++;
 	}
 	n = count - 1;
-	for (; n >= 0; n--)
+	for (j = 0; n >= 0; n--, j++)
 	{
-		_putchar(s[n]);
+		revs[j] = s[n];
 	}
-	_putchar('\n');
+	s = revs
 }
