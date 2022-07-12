@@ -24,4 +24,6 @@ void _puts(char *str)
 		}
 		count++;
 	}
+	if (str[count] == 0)
+		_putchar('\n');
 }
