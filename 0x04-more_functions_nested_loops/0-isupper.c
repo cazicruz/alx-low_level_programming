@@ -1,13 +1,14 @@
-#include <stdio.h>
+#include "main.h"
 
-/*
- * _isupper - starting point
- * Returning: return 0 if lowercase and 1 if uppercase
+/**
+ * _isupper -> starting point
+ * @c: inpute character
+ * Returning: return success
  */
 
 int _isupper(int c)
 {
-	if (c >= 65 && <= 90)
+	if (c >= 65 && c <= 90)
 	{
 		return (1);
 	}
