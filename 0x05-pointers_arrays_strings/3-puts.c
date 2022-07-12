@@ -3,7 +3,7 @@
 
 /**
  * _puts - Entry point
- * @s: string
+ * @str: string
  * Return: returns the lenght of the string
  */
 
@@ -12,10 +12,13 @@ void _puts(char *str)
 {
 	int count = 0;
 
-	for (; count >= 0; count++)
+	while (count >= 0)
 	{
+		if (str[count] == '\0')
+		{
+			_putchar('\n');
+		}
 		_putchar(str[count]);
-		if (count == 0)
-			putchar('\n');
+		count++;
 	}
 }
