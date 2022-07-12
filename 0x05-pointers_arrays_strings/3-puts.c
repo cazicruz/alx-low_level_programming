@@ -7,6 +7,9 @@
  * Return: returns the lenght of the string
  */
 
+int _strlen(char *s);
+
+
 void _puts(char *str)
 {
 	int len;
