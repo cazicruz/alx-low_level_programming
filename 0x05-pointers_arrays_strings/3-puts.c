@@ -2,14 +2,14 @@
 #include "main.h"
 
 /**
- * _strlen - Entry point
+ * _puts - Entry point
  * @s: string
  * Return: returns the lenght of the string
  */
 
 void _puts(char *str)
 {
-	len = _strlen(str);
+	int len = _strlen(str);
 	int i;
 
 
@@ -19,5 +19,5 @@ void _puts(char *str)
 		if (str[i] == 0)
 			_putchar('\n');
 	}
-	return (0);
+
 }
