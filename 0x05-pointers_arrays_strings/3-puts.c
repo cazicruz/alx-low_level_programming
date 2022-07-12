@@ -13,10 +13,10 @@ void _puts(char *str)
 	int i;
 
 
-	for (i = 0; s[i] != 0; i++)
+	for (i = 0; str[i] != 0; i++)
 	{
-		_putchar(s[i]);
-		if (s[i] == 0)
+		_putchar(str[i]);
+		if (str[i] == 0)
 			_putchar('\n');
 	}
 	return (0);
