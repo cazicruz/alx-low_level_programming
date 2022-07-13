@@ -24,8 +24,8 @@ void puts2(char *str)
 			_putchar('\n');
 		}
 		count += 2;
-		n = count + 1;
+		n = count - 1;
 	}
-	if (str[count] <= 0)
+	if (str[count] == 0)
 		_putchar('\n');
 }
