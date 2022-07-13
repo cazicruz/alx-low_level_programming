@@ -15,14 +15,6 @@ void puts2(char *str)
 
 	while (str[count] != 0)
 	{
-		/*if (str[count] >= 0)
-		{
-			_putchar(str[count]);
-		}
-		else
-		{
-			_putchar('\n');
-		}*/
 		count++;
 	}
 	for (n = 0; n <= count - 1; n += 2)
