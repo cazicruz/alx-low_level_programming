@@ -21,8 +21,8 @@ void print_array(int *a, int n)
 		else
 		{
 			_putchar(a[i]);
-			_putchar(",");
-			_putchar(" ");
+			printf(",");
+			printf(" ");
 		}
 
 	}
