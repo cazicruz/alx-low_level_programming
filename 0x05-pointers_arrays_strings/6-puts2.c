@@ -11,18 +11,23 @@
 void puts2(char *str)
 {
 	int count = 0;
+	int n = count;
 
 	while (str[count] != 0)
 	{
-		if (str[count] >= 0)
+		/*if (str[count] >= 0)
 		{
 			_putchar(str[count]);
 		}
 		else
 		{
 			_putchar('\n');
-		}
-		count += 2;
+		}*/
+		count++;
+	}
+	for (n = count; n <= count; n += 2)
+	{
+		_putchar(str[n]);
 	}
 	if (str[count] == 0)
 		_putchar('\n');
