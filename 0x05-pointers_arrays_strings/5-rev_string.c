@@ -13,7 +13,7 @@ void rev_string(char *s)
 	int count = 0;
 	int n;
 	int j;
-	char revs[];
+	char revs;
 
 	while (s[count] != 0)
 	{
@@ -24,5 +24,5 @@ void rev_string(char *s)
 	{
 		revs[j] = s[n];
 	}
-	s = revs
+	s = revs;
 }
