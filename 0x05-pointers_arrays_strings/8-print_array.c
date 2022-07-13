@@ -2,8 +2,9 @@
 #include "main.h"
 
 /**
- * puts2 - Entry point
- * @str: string
+ * print_array - Entry point
+ * @a: string
+ * @n: lenght of a
  * Return: returns the lenght of the string
  */
 
@@ -18,11 +19,6 @@ void print_array(int *a, int n)
 		{
 			printf("%i",a[i]);
 			printf("\n");
-			/*_putchar(a[i]);*/
-		}
-		else if ((i + 1) != 0)
-		{
-			printf("\n");
 		}
 		else
 		{
@@ -30,6 +26,4 @@ void print_array(int *a, int n)
 		}
 
 	}
-	/*if (i == n)
-		_putchar('\n');*/
 }
