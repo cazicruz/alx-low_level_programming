@@ -11,7 +11,7 @@
 void puts2(char *str)
 {
 	int count = 0;
-	int n = count;
+	int n;
 
 	while (str[count] != 0)
 	{
@@ -25,7 +25,7 @@ void puts2(char *str)
 		}*/
 		count++;
 	}
-	for (n = count; n <= count; n += 2)
+	for (n = 0; n <= count; n += 2)
 	{
 		_putchar(str[n]);
 	}
