@@ -17,13 +17,17 @@ void print_array(int *a, int n)
 	{
 		if ((i + 1) >= n)
 		{
-			printf("%i",a[i]);
+			printf("%i", a[i]);
 			printf("\n");
 		}
 		else
 		{
-			printf("%i, ",a[i]);
+			printf("%i, ", a[i]);
 		}
 
+	}
+	if (a[n] != 0)
+	{
+		printf("\n");
 	}
 }
