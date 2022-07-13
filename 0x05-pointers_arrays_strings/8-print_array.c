@@ -20,6 +20,10 @@ void print_array(int *a, int n)
 			printf("%i", a[i]);
 			printf("\n");
 		}
+		else if (a[n] != 0)
+		{
+			printf("\n");
+		}
 		else
 		{
 			printf("%i, ", a[i]);
