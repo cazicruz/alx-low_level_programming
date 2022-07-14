@@ -1,24 +1,52 @@
-#include <stdio.h>
 #include "main.h"
 
+
+
 /**
- * swap_int - Entry point
- * Discription: this is a function that swaps two values
- * @a: pointer variable
- * @b: pointer variable
+
+ * *_strcat - concatenates two string
+
+ * @dest: destination
+
+ * @src: source
+
+ * Return: pointer to dest
+
  */
 
 char *_strcat(char *dest, char *src)
 {
-	int n = 0;
-	int m;
 
-	while (dest[n] != 0)
+	int count = 0, count1 = 0;
+
+
+
+	while (*(dest + count) != '\0')
+
 	{
-		n++;
+
+		count++;
+
 	}
-	for (m = 0; src[m] != 0; m++, n++)
+
+
+
+	while (count1 >= 0)
+
 	{
-		dest[n] = src[m];
+
+		*(dest + count) = *(src + count1);
+
+		if (*(src + count1) == '\0')
+
+			break;
+
+		count++;
+
+		count1++;
+
 	}
+
+	return (dest);
+
 }
