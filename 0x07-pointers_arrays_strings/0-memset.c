@@ -3,8 +3,8 @@
 
 /**
  * *_memset - Entry point
- *  @n: number of bytes to fill
- *  @b: constant byte
+ * @n: number of bytes to fill
+ * @b: constant byte
  * return: Always return 0
  */
 
