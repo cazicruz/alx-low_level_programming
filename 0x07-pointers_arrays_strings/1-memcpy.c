@@ -2,9 +2,9 @@
 
 /**
  * _memcpy - Entry point
- * @s: memory area
+ * @dest: End point
  * @n: number of bytes to fill
- * @b: constant byte
+ * @src: source location
  * Return: return *s
  */
 
