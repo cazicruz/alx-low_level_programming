@@ -3,9 +3,10 @@
 
 /**
  * _memset - Entry point
+ * @s: memory area
  * @n: number of bytes to fill
  * @b: constant byte
- * return: Always return s 
+ * return: Always return *s 
  */
 
 char *_memset(char *s, char b, unsigned int n)
