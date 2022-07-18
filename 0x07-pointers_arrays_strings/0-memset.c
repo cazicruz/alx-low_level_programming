@@ -2,8 +2,7 @@
 #include <stdio.h>
 
 /**
- * *_memset - Entry point
- * @s: memory area
+ * _memset - Entry point
  * @n: number of bytes to fill
  * @b: constant byte
  * return: Always return s 
