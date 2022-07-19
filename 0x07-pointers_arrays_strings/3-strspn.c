@@ -15,10 +15,13 @@ unsigned int _strspn(char *s, char *accept)
 
 	for (i = 0; s[i] != 32; i++)
 	{
-		if (*s == *accept)
+		if (s[i] != ",")
 		{
-			c++;
-			return (c);
+			if (*s == *accept)
+			{
+				c++;
+				return (c);
+			}
 		}
 	}
 	if (*s == *accept)
