@@ -1,32 +1,30 @@
 #include "main.h"
 
 /**
- * _strchr - Entry point
- * @s: this is where we search for c
- * @c: search criteria
- * @i: itration var
- * Return: return s
+ * _strspn - length of a prefix substring
+ * @s: segment of bytes
+ * @accept: only bytes
+ * Return: the number of bytes in the initial segment of s
+ *which consist only of bytes from accept
  */
 
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int c = 0;
-	int i;
+	int i, j;
+	int c = 0;
 
-	for (i = 0; s[i] != 32; i++)
+	for (i = 0; s[i] != '\n'; i++)
 	{
-		if (s[i] != 44)
+		if (s[i] != 32)
 		{
-			if (*s == *accept)
+			for (j = 0; accept[j] != '\0'; j++)
 			{
-				c++;
-				return (c);
+				if (s[i] == accept[j])
+					c++;
 			}
 		}
+		else
+			return (c);
 	}
-	if (*s == *accept)
-	{
-		return (c);
-	}
-	return (0);
+	return (c);
 }
