@@ -10,7 +10,7 @@
 char *_strchr(char *s, char c)
 {
 
-	for (i = 0; *s != 0; s++)
+	for (; *s != 0; s++)
 	{
 		if (*s == c)
 		{
@@ -20,5 +20,5 @@ char *_strchr(char *s, char c)
 			}
 		}
 	}
-	return (0);
+return (0);
 }
