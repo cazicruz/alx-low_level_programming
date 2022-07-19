@@ -16,10 +16,8 @@ unsigned int _strspn(char *s, char *accept)
 	{
 		if (*s == *accept)
 		{
-			for (; *s != '\0'; c++)
-			{
-				return (c);
-			}
+			c++;
+			return (c);
 		}
 	}
 	if (*s == *accept)
