@@ -15,7 +15,7 @@ unsigned int _strspn(char *s, char *accept)
 
 	for (i = 0; s[i] != 32; i++)
 	{
-		if (s[i] != ",")
+		if (s[i] != 44)
 		{
 			if (*s == *accept)
 			{
