@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _puts_recursion - Entry point
+ * _print_rev_recursion - Entry point
  * @s: input parameter
  * Return: void
  */
