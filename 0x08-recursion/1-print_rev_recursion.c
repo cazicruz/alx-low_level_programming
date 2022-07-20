@@ -2,6 +2,7 @@
 /**
  * _puts_recursion - Entry point
  * @s: input parameter
+ * Return: void
  */
 
 void _print_rev_recursion(char *s)
