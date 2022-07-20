@@ -16,7 +16,7 @@ int primer(int i, int j)
 		else
 			return (0);
 	}
-	return (0 + helper(i, j + 1));
+	return (primer(i, j + 1));
 }
 
 /**
