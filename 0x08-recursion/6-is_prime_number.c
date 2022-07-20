@@ -27,5 +27,13 @@ int primer(int i, int j)
 
 int is_prime_number(int n)
 {
+	if (n == 0)
+	{
+		return (0);
+	}
+	else if (n == 1)
+	{
+		return (1);
+	}
 	return (primer(n, 2));
 }
