@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * helper - square root of number
+ * primer - square root of number
  * @i: input number
  * @j: iterator
  * Return: square root or -1
