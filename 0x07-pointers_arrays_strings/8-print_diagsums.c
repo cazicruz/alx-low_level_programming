@@ -5,8 +5,6 @@
  * print_diagsums -  sum of the two diagonals of a square matrix of integers
  * @a: array name
  * @size: array size
- *
-
  * Return: void
  */
 
