@@ -20,7 +20,7 @@ int primer(int i, int j)
 }
 
 /**
- * _sqrt_recursion - returns the natural square root of a number
+ * is_prime_number - returns the natural square root of a number
  * @n: number
  * Return: the natural square root of a number
  */
@@ -33,7 +33,7 @@ int is_prime_number(int n)
 	}
 	else if (n == 1)
 	{
-		return (1);
+		return (0);
 	}
 	return (primer(n, 2));
 }
