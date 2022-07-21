@@ -6,7 +6,7 @@
  * Return: void
  */
 
-char _print_rev(*s)
+char _print_rev(char *s)
 {
 	char n[100];
 
