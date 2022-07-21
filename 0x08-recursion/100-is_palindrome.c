@@ -1,37 +1,49 @@
 #include "main.h"
 
+
 /**
- * _print_rev_recursion - Entry point
- * @s: input parameter
- * Return: void
+ * _strlen_recursion - length of string
+ * @s: string
+ * Return: length of string
  */
 
-char _print_rev(char *s)
+int _strlen_recursion(char *s)
 {
-	char n[100];
 
-	if (*s != '\0')
-	{
-		_print_rev(s + 1);
-		n = *s;
-	}
-	return(n);
+	if (*s == '\0')
+		return (0);
+	else
+		return (1 + _strlen_recursion(s + 1));
 }
 
 /**
- * _sqrt_recursion - returns the natural square root of a number
- * @n: number
- * Return: the natural square root of a number
+ * compares - compare character of the string
+ * @s: string
+ * @j1: smallest iterator
+ * @j2: biggest iterator
+ * Return: .
+ */
+
+int compares(char *s, int j1, int j2)
+{
+	if (*(s + j1) == *(s + j2))
+	{
+		if (j1 == j2 || j1 == j2 + 1)
+			return (1);
+		return (0 + compares(s, j1 + 1, j2 - 1));
+	}
+	return (0);
+}
+
+/**
+ * is_palindrome - detect string if palindrome
+ * @s: string
+ * Return: 1 if a string is a palindrome and 0 if not
  */
 
 int is_palindrome(char *s)
 {
-	if (*s == _print_rev(*s))
-	{
+	if (*s == '\0')
 		return (1);
-	}
-	else
-	{
-		return (0);
-	}
+	return (compares(s, 0, _strlen_recursion(s) - 1));
 }
