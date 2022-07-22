@@ -1,14 +1,17 @@
 #include "main.h"
 /**
+ * _puts_recursion - Entry point
+ * @s: input parameter
  */
 
 void _puts_recursion(char *s)
 {
-	if (s == '\0')
+	if (*s == '\0')
 	{
-		return ('\n');
+		_putchar('\n');
+		return;
 	}
 
-	return (*s);
-	_puts_recursion(s - 1);
+	_putchar(*s);
+	_puts_recursion(s + 1);
 }
