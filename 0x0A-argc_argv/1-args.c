@@ -11,7 +11,7 @@
 
 int main(int argc, char *argv[])
 {
-	if (argv[argc] == '\0')
+	if (*argv[argc] == '\0')
 	{
 		printf("%d\n", argc);
 	}
