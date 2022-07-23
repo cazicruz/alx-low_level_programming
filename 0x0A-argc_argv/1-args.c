@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 /**
  * main - Entry point of the prog
@@ -8,8 +9,9 @@
  * Return: returns success as 0
  */
 
-int main(int argc, char *argv[])
+int main(int argc, __attribute__((unused)) char *argv[])
 {
+	
 	printf("%d\n", argc);
 	return (0);
 }
