@@ -13,6 +13,6 @@ int main(int argc, char *argv[])
 {
 	printf("%d\n", argc);
 	if (*argv[argc] == '\0')
-		break
+		break;
 	return (0);
 }
