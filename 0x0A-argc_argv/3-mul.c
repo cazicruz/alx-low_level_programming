@@ -14,8 +14,8 @@ int main(int argc, int *argv[])
 	int i, j;
 	if (argc == 2)
 	{
-		i = argv[1];
-		j = argv[2];
+		i = atoi(argv[1]);
+		j = atoi(argv[2]);
 		printf("%d", i * j);
 	}
 	else
