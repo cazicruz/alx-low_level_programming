@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 /**
  * main - Entry point of the prog
@@ -10,9 +11,8 @@
 
 int main(int argc, char *argv[])
 {
-	if (argc >= 0)
-	{
-		printf("%s\n", argv[0]);
-	}
+	if (*argv[argc] == '\0')
+	{}
+	printf("%d\n", argc - 1);
 	return (0);
 }
