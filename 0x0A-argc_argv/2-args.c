@@ -5,7 +5,6 @@
  * main - Entry point of the prog
  * @argc: argument count
  * @argv: argument vector
- * @count: iteration var
  * Return: returns success as 0
  */
 
