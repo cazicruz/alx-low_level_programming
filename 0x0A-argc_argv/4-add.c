@@ -1,30 +1,30 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
 
 /**
- * main - Entry point of the prog
- * @argc: argument count
- * @argv: argument vector
- * Return: returns success as 0
+ * main - adds positive numbers
+ * @argc: count
+ * @argv: array
+ * Return: 0
  */
 
 int main(int argc, char *argv[])
 {
-	int i, sum;
+	int i, j, add = 0;
 
-	if (argc == 0)
-		printf("0\n");
 	for (i = 1; i < argc; i++)
 	{
-		if (isalpha(argv[i]))
+		for (j = 0; argv[i][j] != '\0'; j++)
 		{
-			printf("Error\n");
-			return (1);
+			if (!isdigit(argv[i][j]))
+			{
+				printf("Error\n");
+				return (1);
+			}
 		}
-		else
-		{
-			sum += atoi(argv[i]);
-		}
+		add = add + atoi(argv[i]);
 	}
-	printf("%d\n", sum);
+	printf("%d\n", add);
+	return (0);
 }
