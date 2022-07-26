@@ -14,16 +14,15 @@ char *_strdup(char *str)
 
 	char *p;
 
+	if (str == NULL)
+		return (NULL);
+
 	for (i = 0; str[i] != '\0';)
 	{
 		i++;
 	}
 	p = (char *)malloc(i + 1);
 
-	if (str == NULL)
-	{
-		return (NULL);
-	}
 	else if (p == NULL)
 	{
 		return (NULL);
@@ -33,9 +32,5 @@ char *_strdup(char *str)
 		{
 			p[j] = str[j];
 		}
-	if (p == NULL)
-	{
-		return (NULL);
-	}
 	return (p);
 }
