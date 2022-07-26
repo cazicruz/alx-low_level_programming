@@ -5,7 +5,6 @@
 /**
  * _strdup - Entry point
  * @str: pointer to input array
- * @p: pointer to duplicate array
  * Return: p
  */
 
@@ -25,14 +24,14 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-	else if (p == NULL)
-	{
-		return (NULL);
-	}
 	else
 		for (j = 0; j < i; j++)
 		{
 			p[j] = str[j];
 		}
+	if (p == NULL)
+	{
+		return (NULL);
+	}
 	return (p);
 }
