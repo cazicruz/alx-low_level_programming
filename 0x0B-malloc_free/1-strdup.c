@@ -3,9 +3,9 @@
 #include "main.h"
 
 /**
- * create_array - Entry point
- * @size: size of array
- * @c: char to fill array with
+ * _strdup - Entry point
+ * @str: pointer to input array
+ * @p: pointer to duplicate array
  * Return: p
  */
 
