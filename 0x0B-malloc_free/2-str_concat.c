@@ -3,8 +3,9 @@
 #include "main.h"
 
 /**
- * _strdup - Entry point
- * @str: pointer to input array
+ * str_concat - Entry point
+ * @s1: pointer to input array
+ * @s2: pointer to input array
  * Return: p
  */
 
