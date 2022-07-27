@@ -8,7 +8,7 @@
  * Return: p
  */
 
-char *_strdup(char *str)
+char *str_concat(char *s1, char *s2)
 {
 	char *p;
 	unsigned int i, j, k, m;
@@ -22,7 +22,7 @@ char *_strdup(char *str)
 		;
 	for (j = 0; s2[j] != '\0'; j++)
 		;
-	strout = malloc(sizeof(char) * (i + j + 1));
+	p = malloc(sizeof(char) * (i + j + 1));
 
 	if (p == NULL)
 	{
