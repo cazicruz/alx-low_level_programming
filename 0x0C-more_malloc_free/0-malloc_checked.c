@@ -2,16 +2,23 @@
 #include <stdlib.h>
 #include <string.h>
 #include "main.h"
+
 /**
+ * malloc_checked - Entry point
+ * @p: pointer param
+ * @b: inpute param
+ * Return: retuns a pointer to the allocated memory
  */
 
 void *malloc_checked(unsigned int b)
 {
-	int *p = malloc(b);
+
+	void *p;
+
+	p = malloc(b);
 	if (p == NULL)
 	{
-		return (98);
+		exit (98);
 	}
-	else
-		return (0);
+	return (p);
 }
