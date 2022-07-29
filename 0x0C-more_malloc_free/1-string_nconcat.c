@@ -6,7 +6,6 @@
  * @s1: first string
  * @s2: second string
  * @n: amount of bytes
- *
  * Return: pointer shall point to a newly allocated space in memory
  */
 
@@ -26,7 +25,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	for (j = 0; s2[j] != '\0'; j++)
 		;
 
-	if (n > j)
+	if (n >= j)
 		n = j;
 
 	k = i + n;
@@ -36,7 +35,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (sout == NULL)
 		return (NULL);
 
-	for (i = 0; l < k; l++)
+	for (l = 0; l < k; l++)
 		if (l < i)
 			sout[l] = s1[l];
 		else
