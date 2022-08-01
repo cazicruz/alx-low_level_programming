@@ -2,7 +2,7 @@
 #define _DOG_H_
 
 /**
- * do - Entry point of code
+ * dog - Entry point of code
  * @name: variables
  * @owner: vriable
  * @age: variable
