@@ -6,6 +6,8 @@
  * @name: variables
  * @owner: vriable
  * @age: variable
+ *
+ * Description: struct called "dog" that stores its name, age,
  */
 
 struct dog 
