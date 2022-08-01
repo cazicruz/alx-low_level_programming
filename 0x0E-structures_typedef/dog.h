@@ -1,5 +1,6 @@
 #ifndef _DOG_H_
 #define _DOG_H_
+
 /**
  * do - Entry point of code
  * @name: variables
