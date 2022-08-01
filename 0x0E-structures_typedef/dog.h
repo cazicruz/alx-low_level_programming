@@ -5,10 +5,13 @@
  * @name: variables
  * @owner: vriable
  * @age: variable
+ */
 
-typedef struct dog {
+typedef struct dog 
+{
 	char *name;
 	char *owner;
 	float age;
 } dog;
+
 #endif
