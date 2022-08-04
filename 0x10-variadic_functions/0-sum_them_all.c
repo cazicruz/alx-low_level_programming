@@ -15,7 +15,7 @@ int sum_them_all(const unsigned int n, ...)
 		return (0);
 	}
 	va_start(pg, n);
-	for (i = n; i != NULL; i = va_arg(pg, const unsigned int))
+	for (i = n; i != NULL; i = va_arg(pg, int))
 	{
 		sum = sum + i;
 	}
