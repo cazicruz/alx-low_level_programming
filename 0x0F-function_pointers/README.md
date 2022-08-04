@@ -1,1 +1,1 @@
-This is a simple read me for understanding pointers to array 
+README : This is a simple read me for understanding pointers to array 
