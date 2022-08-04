@@ -19,5 +19,6 @@ int sum_them_all(const unsigned int n, ...)
 	{
 		sum = sum + i;
 	}
+	va_end(pg);
 	return (sum);
 }
