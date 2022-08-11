@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "main.h"
+#include "list.h"
 /**
  * print_list - Entry point 
  * @s: size parameter
