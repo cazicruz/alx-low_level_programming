@@ -4,7 +4,7 @@
 #include "lists.h"
 
 /**
- * add_node_end - Entry point
+ * free_list - Entry point
  * @head: pointer to the list_t list
  * @str: pointer to string
  * Return: number of elements in h
