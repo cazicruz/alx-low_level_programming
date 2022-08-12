@@ -5,7 +5,8 @@
 
 /**
  * add_node - Entry point
- * @h: pointer to the list_t list
+ * @head: pointer to the list_t list
+ * @str: pointer to string of head
  *
  * Return: number of elements in h
  */
