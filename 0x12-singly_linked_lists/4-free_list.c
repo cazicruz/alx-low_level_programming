@@ -6,7 +6,6 @@
 /**
  * free_list - Entry point
  * @head: pointer to the list_t list
- * @str: pointer to string
  * Return: number of elements in h
  */
 
