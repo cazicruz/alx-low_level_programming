@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "main.h"
+#include "lists.h"
 /**
- * print_list - Entry point 
- * @s: size parameter
- *
+ * print_list - Entry point
+ * @h: pointer parameter
+ * @size_t: return value of s
+ * return: Return s
  */
 
 size_t print_list(const list_t *h)
