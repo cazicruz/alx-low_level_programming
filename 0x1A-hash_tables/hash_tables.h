@@ -1,5 +1,5 @@
-ifndef SBHASHTABLESH
-#define SBHASHTABLESH
+ifndef HASH_TABLES_H
+#define HASH_TABLES_H
 
 /**
  * struct hash_node_s - Node of a hash table
@@ -83,4 +83,4 @@ void shash_table_print(const shash_table_t *ht);
 void shash_table_print_rev(const shash_table_t *ht);
 void shash_table_delete(shash_table_t *ht);
 
-#endif
+#endif /* HASH_TABLES_H */
