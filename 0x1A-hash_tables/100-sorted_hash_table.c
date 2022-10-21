@@ -201,4 +201,41 @@ void shash_table_print(const shash_table_t *ht)
  *
  * Return: void
  */
-void shash_table_print_rev(const sha
+void shash_table_print_rev(const shash_table_t *ht)
+{
+	shash_node_t *ptr;
+
+	ptr = ht->stail;
+	printf("{");
+	if (ptr != NULL)
+	{
+		printf("'%s': '%s'", ptr->key, ptr->value);
+		ptr = ptr->sprev;
+	}
+	while (ptr != NULL)
+	{
+		printf(", '%s': '%s'", ptr->key, ptr->value);
+		ptr = ptr->sprev;
+	}
+	printf("}\n");
+}
+
+	
+void shash_table_delete(shash_table_t *ht)
+{
+	shash_node_t *ptr, *next;
+
+	if (ht == NULL)
+		return;
+	ptr = ht->shead;
+	while (ptr != NULL)
+	{
+		next = ptr->snext;
+		free(ptr->key);
+		free(ptr->value);
+		free(ptr);
+		ptr = next;
+	}
+	free(ht->array);
+	free(ht);
+}
